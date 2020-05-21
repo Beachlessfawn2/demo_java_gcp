@@ -8,4 +8,4 @@
  artifacts:
    objects:
      location: 'gs://output-bucket-codebuild/target/'
-     paths: ['/workspace/target/messageUtil-1.0.jar'']
+     paths: ['/workspace/target/messageUtil-1.0.jar']
