@@ -26,7 +26,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.main.MessageUtil</mainClass>
+              <mainClass>com.main.java.MessageUtil</mainClass>
             </manifest>
           </archive>
         </configuration>
