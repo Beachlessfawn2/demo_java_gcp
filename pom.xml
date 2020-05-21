@@ -7,14 +7,6 @@
   <version>1.0</version>
   <packaging>jar</packaging>
   <name>Message Utility Java Sample App</name>
-  <configuration>
-    <archive>
-      <manifest>
-        <addClasspath>true</addClasspath>
-        <mainClass>com.main.MessageUtil</mainClass>
-      </manifest>
-    </archive>
-  </configuration>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,6 +21,14 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>com.main.MessageUtil</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
       </plugin>
     </plugins>
   </build>
