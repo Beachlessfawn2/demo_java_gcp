@@ -7,6 +7,15 @@
   <version>1.0</version>
   <packaging>jar</packaging>
   <name>Message Utility Java Sample App</name>
+  <configuration>
+    <archive>
+      <manifest>
+        <addClasspath>true</addClasspath>
+        <classpathPrefix>lib/</classpathPrefix>
+        <mainClass>com.main.MessageUtil</mainClass>
+      </manifest>
+    </archive>
+  </configuration>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
